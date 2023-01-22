@@ -1,0 +1,534 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.story_container{
+    height: 730px;
+    width: 100%;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/eb83fa55-ab10-476a-b103-499eb7c6e022/IN-en-20230103-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.text-white{
+    color: white;
+}
+.story_header{
+    height: 64px;
+    width: 100%;
+    padding-top: 20px;   
+}
+.story_sub-header{
+    height: 45px;
+    margin-left: 45px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.left_story_sub-header{
+    margin-left: 10px;
+    margin-right: 1000px;
+    height: 80px;
+    width: 150px;
+    align-items: center;
+    background-image: url('https://pngimg.com/uploads/netflix/netflix_PNG25.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid_story_sub-header{
+    background-color: black;
+    height: 40px;
+    width: 95px;
+    margin-right: 32px;
+    margin-top: 5px;
+    padding-top: 6px;
+    border-radius: .05cm;
+    border-color: rgb(244, 238, 238);
+    border-style: solid;
+    border-width: .01cm;
+}
+.fi-ss-globe{
+    padding-left: 5px;
+    color: white;
+}
+.language{
+    background-color: black;
+    border: none;
+}
+.right_story_sub-header{
+    background-color: rgb(230, 20, 20);
+    height: 40px;
+    width: 85px;
+    margin-top: 5px;
+    border-radius: .1cm;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.website_info{
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    height: 170px;
+    width: 50%;
+    margin-top: 100px;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text2{
+    font-size: 28px;
+    text-align: center;
+}
+.text3{
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: center;
+}
+.start_bar{
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.email_address{
+    width: 550px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: .05cm;
+}
+.get_started{
+    background-color: red;
+    width: 230px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: .05cm;
+}
+.fi-ss-angle-right{
+    font-size: 25px;
+}
+.grey{
+    background: rgb(37, 34, 34);
+    height: 10px;
+    width: 100%;
+}
+
+
+.animation1_container{
+    background: black;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+}
+.animation1_texts{
+    height: 200px;
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;  
+}
+.animation1_text1{
+    height: 70px; 
+    width: 500px;
+    font-size: 45px;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.animation1_text2{
+    height: 100px;
+    width: 550px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.animation1_subcontainer{
+    padding-top: 90px;
+    padding-left: 100px;
+    height:600px;
+    width: 600px;
+    display: flex;
+}
+.subcontainer{
+    position: relative;
+    overflow: hidden;
+}
+.image_container{
+    position: absolute;
+    z-index: 2;
+}
+.img{
+    height:250px;
+    width: 100%;
+}
+.animation1{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 71px;
+    width: 470px; 
+}
+
+
+.animation2_container{
+    background: black;
+    height: 470px;
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    display: flex;
+}
+.animation2_left{
+    padding-left: 80px; 
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg'); 
+    background-size: 490px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 600px; 
+}
+.animation2_sub-left{
+    margin-top: 245px;
+    background: black;
+    height: 100px;
+    width: 330px;
+    border-width: 0.05cm;
+    border-color: rgb(80, 79, 79);
+    border-radius: 15px;
+    border-style: solid;
+    display: flex;
+}
+.animation2_sub-left_left{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.animation2_sub-left_mid{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 80px;
+}
+.animation2_stranger_text{
+    font-weight: 600;
+}
+.animation2_downloading_text{
+    color: blue;
+}
+.animation2_sub-left_right{ 
+    width: 300px;
+    background-size: 50px;
+    background-position-y: center ;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
+    background-repeat: no-repeat;
+}
+.animation2_right{
+    padding-top: 90px ;
+    padding-left: 10px;
+    height: 280px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.animation2_text1{
+    height: 270px; 
+    width: 600px;
+    font-size: 45px;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.animation2_text2{
+    height: 100px;
+    width: 600px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.animation3_container{
+    background: black;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.animation3_texts{
+    height: 200px;
+    width: 580px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;   
+}
+.animation3_text1{
+    height: 70px; 
+    width: 550px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.animation3_text2{
+    height: 100px;
+    width: 550px;
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.animation3_subcontainer{
+    padding-top: 70px;
+    padding-left: 10px;
+    height:585px;
+    width: 600px;
+    display: flex; 
+}
+.subcontainer{
+    position: relative;
+    overflow: hidden;
+}
+.image_container{
+    position: absolute;
+    z-index: 2;
+}
+.img{
+    height:250px;
+    width: 100%;
+}
+.animation3{
+    position: relative;
+    padding-top: 8px;
+    padding-left: 100px;
+    width: 600px;  
+}
+
+
+.animation4_container{
+    background: black;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 45px;
+}
+.animation4_left{
+    padding-left: 80px; 
+    background-image: url('https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420'); 
+    background-size: 530px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 600px; 
+}
+.animation4_right{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.animation4_text1{
+    height: 130px; 
+    width: 600px;
+    font-size: 45px;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.animation4_text2{
+    height: 100px;
+    width: 600px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.questions_container{
+    background: black;
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 45px;
+}
+.questions_container_heading{
+    font-size:50px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.fi-rr-plus{
+    font-size: 30px;
+    color: white;
+}
+.question1{
+    height: 80px;
+    width: 820px;
+    background-color: rgb(63, 61, 61);
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.question1_left{
+    font-size: 30px;
+    height: 40px;
+    width: 680px;
+    text-align: left;
+}
+.question1_right{
+    height: 40px;
+    width: 100px;
+}
+.question2{
+    height: 80px;
+    width: 820px;
+    background-color: rgb(63, 61, 61);
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.question2_left{
+    font-size: 30px;
+    height: 40px;
+    width: 680px;
+    text-align: left;
+}
+.question2_right{
+    height: 40px;
+    width: 100px;
+}
+.question3{
+    height: 80px;
+    width: 820px;
+    background-color: rgb(63, 61, 61);
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.question3_left{
+    font-size: 30px;
+    height: 40px;
+    width: 680px;
+    text-align: left;
+}
+.question3_right{
+    height: 40px;
+    width: 100px;
+}
+.questions_container_info{
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text-grey{
+    color:grey;
+}
+
+
+.footer_container{
+    height: 390px;
+    width: 100%;
+    background-color: black;
+    padding-left: 290px;
+    padding-right: 280px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.footer_top{
+    height: 20px;
+    width: 900px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.footer_site-link_container{
+    height: 150px;
+    width: 900px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.footer_site-link_container1{
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 150px;
+    width: 175px;
+    font-size: 20;
+    text-align: left;  
+}
+.footer_site-link_container2{
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 150px;
+    width: 175px;
+    font-size: 20;
+    text-align: left;  
+}
+.footer_site-link_container3{
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 150px;
+    width: 175px;
+    font-size: 20;
+    text-align: left;  
+}
+.footer_site-link_container4{
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 150px;
+    width: 175px;
+    font-size: 20;
+    text-align: left;  
+}
+.footer_item_link{
+    padding-bottom: 12px;
+    font-size: 13px;
+}
+.footer_language{
+    background-color: black;
+    height: 50px;
+    width: 120px;
+    margin-right: 32px;
+    margin-top: 5px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: .05cm;
+    border-color: rgb(70, 69, 69);
+    border-style: solid;
+    border-width: .01cm;
+}
+.footer_bottom{
+    height: 18px;
+    width: 900px;
+    font-size: 13px;
+    margin-top: 15px;
+}
