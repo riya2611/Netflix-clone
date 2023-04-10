@@ -35,8 +35,7 @@
     height: 80px;
     width: 150px;
     align-items: center;
-    background-blend-mode: darken;
-    background: rgba(0,0,0,0.5) url('https://pngimg.com/uploads/netflix/netflix_PNG25.png');
+    background-image: url('https://pngimg.com/uploads/netflix/netflix_PNG25.png');
     background-repeat: no-repeat;
     background-size: cover;
     bac
